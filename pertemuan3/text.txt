@@ -1,0 +1,45 @@
+ Pengulangan
+ for, while, do .. while, foreach: pengulangan khusus array
+
+ for( $i = 0; $i < 5; $i++ ) {
+     echo "Hello World! <br> ";
+ }
+
+ (While tidak jalan)
+ $i = 10;
+ while( $i < 5 ) {
+     echo "Hello World! <br> ";
+ $i++;
+ }
+
+ Sedangkan Do While Di jalankan minimal sekali
+ $i = 0;
+ do {
+     echo "Hello World! <br>";
+ $i++;
+ } while ( $i < 5); 
+
+ Pengkondisian / Percabangan
+ if else
+ if else if else
+ ternary
+ switch
+
+ <?php echo ?> bisa diganti menjadi <?= ?>
+ symbol { } bole ganti jd : endforeach;
+ print_r artinya print secara rekursif klo print aja sama dengan echo
+
+ array ada numery dan associative
+ numery = index adalah angkanya, dibuat otomatis oleh php.
+ associative = index adalah stringnya, kita yang buat sendiri.
+ 
+ variabel scope/ lingkup variable
+ variabel lokal untuk halaman ini
+
+ superglobals
+ variabel global milik php
+ merupakan array associative
+
+ $_ GET
+ di web kalau ad "?" di paling akhir artinya skrg saya akan memasukan data ke halaman ini.
+ (masukin variable ke $_get key);

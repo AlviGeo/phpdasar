@@ -51,13 +51,12 @@ function ubah($data) {
 
     // query insert data
     $query = "UPDATE mahasiswa SET
-                    nrp = '$nrp',
-                    nama = '$nama',
-                    email = '$email',
-                    jurusan = '$jurusan',
-                    gambar = '$gambar'
+                nrp = '$nrp',
+                nama = '$nama',
+                email = '$jurusan',
+                gambar = '$gambar',
              WHERE 
-                    id = $id
+                id = $id
                 ";
     mysqli_query($conn, $query);
 
